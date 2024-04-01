@@ -1,4 +1,4 @@
-import './App.css';
+import './skillsStyle.css';
 import ImageSlider from './ImageSlider';
 
 function Skills() {
