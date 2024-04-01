@@ -4,7 +4,7 @@ export default function About() {
 		<section
 			className="aboutsec">
 			<div style={{"flex":"1 1 0%"}}>
-				<img src="./src/programming desktop.png"
+				<img src="http://localhost:5173/programming desktop.png"
 					style={{"width":"100%","height":"100%","backgroundSize":"cover"}}/>
 			</div>
 			<div className="aboutdiv">
