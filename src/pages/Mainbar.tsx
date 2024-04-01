@@ -1,4 +1,3 @@
-// Hero.js
 import "./mainbarStyle.css";
 export default function Mainbar() {
 	return (
