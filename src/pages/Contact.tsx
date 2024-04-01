@@ -7,7 +7,7 @@ export default function Contact() {
 				Contact
 			</h2>
 			<Form />
-			<div style={{"display": "flex", "marginTop": "2.5rem","margin-bottom":"2.5rem", "gap": "1.25rem","justify-content":"center"}}>
+			<div style={{"display": "flex", "marginTop": "2.5rem", "margin-bottom": "2.5rem", "gap": "1.25rem", "justify-content": "center"}}>
 				<a
 				className="links"
 				href="https://www.linkedin.com/in/setareh-mizani/">
