@@ -1,0 +1,24 @@
+.container {
+    display: flex; 
+    flex-direction: row; 
+    gap: 1.25rem; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    background-color: aqua;
+}
+
+.page {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    border-radius: 0.25rem; 
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+.page:hover {
+    color: #ffffff; 
+    }
+
