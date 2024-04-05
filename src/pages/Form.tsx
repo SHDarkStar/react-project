@@ -1,36 +1,39 @@
+// فرم برای گرفتن اطلاعات از کاربر به همراه یک نوشته متنی, شاکل اسم, فامیل, ایمیل, یادداشت
+// طراحی یک رویداد که کاربر پس از زدن دکمه تایید, یک پیام به عنوان ذخیره شدن اطلاعات دریافت کند.
+import "./styles.css";
 const Form = () => {
-
-    const handleSubmit = (event: { preventDefault: () => void; }) => {
+    const submitHandle = (event: { preventDefault: () => void; }) => {
         event.preventDefault();
         alert("Your notes are saved and will be answered soon.");
     };
 
     return (
-        <form onSubmit={handleSubmit}>
-            <label>
+        <form className="labels" onSubmit={submitHandle}>
+            <label >
                 First Name:
-                <input type="text" name="firstName"/>
+                <br />
+                <input type="text"/>
             </label>
             <br />
             <label>
                 Last Name:
-                <input type="text" name="lastName"/>
+                <br />
+                <input type="text"/>
             </label>
             <br />
             <label>
                 Email:
-                <input type="email" name="email"/>
+                <br />
+                <input type="email"/>
             </label>
             <br />
             <label>
                 Note:
-                <textarea
-                    style={{ width: "500px", height: "100px" }}
-                    name="description"
-                />
+                <br />
+                <textarea style={{ width: "500px", height: "100px" }}/>
             </label>
             <br />
-            <button type="submit">Submit</button>
+            <button className="submitButton" type="submit">Submit</button>
         </form>
     );
 };
