@@ -1,0 +1,110 @@
+/*styles of About.tsx */
+.aboutSection {
+    display: flex; 
+    padding: 10px;  
+    background-color: rgb(80,44,25);
+    border-radius: 0 0 10px 10px;
+    
+}
+.aboutDiv{
+    display: flex; 
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgb(172,140,128);
+    border-radius: 10px 10px 0px 0px;
+    color: rgb(227,224,222);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+/*styles of Contacts.tsx */
+.contacts {
+    font-size: 16px;
+    padding: 20px; 
+    background-color: rgb(110, 74, 59);
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.links{
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    gap: 20px;
+    justify-content: center;
+    transition-timing-function: cubic-bezier(1, 1, 1, 1);
+    transition-duration: 300ms;
+    text-decoration: none;
+    color: black;
+}
+.links:hover{ 
+    color: white;  
+}
+/*styles of Form.tsx */
+.labels{
+    color: rgb(227,224,222);
+    background-color: rgb(144,108,94);
+    padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.submitButton{
+    background-color: rgb(80,44,25);
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.submitButton:hover{
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.5); 
+}
+/*styles of Mainbar.tsx */
+.mainBar{
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;  
+    height: 85vh;
+    background-color: rgb(172,140,128);
+    border-radius: 10px;
+}
+.main{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+    background-color:rgb(144,108,94);
+    font-family:monospace;
+}
+@keyframes colorChange {
+    0% {color: black;}
+    50% {color: white;}
+    100% {color: black;}
+}
+.animatedText {
+    animation: colorChange 1s infinite;
+}
+/*styles of Navbar.tsx */
+.container {
+    display: flex; 
+    flex-direction: row;  
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    background-color: rgb(144,108,94);
+    color: white;
+    border-radius: 10px;
+    font-family:cursive;
+}
+.page {
+    transition-timing-function: cubic-bezier(1, 1, 1, 1);
+    transition-duration: 300ms;
+    text-decoration: none;
+    color: white;
+}
+.page:hover {
+    color: black; 
+    }
+/*styles of Skills.tsx*/
+.skills{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(172,140,128);
+    padding: 30px;
+    border-radius: 10px;
+}
