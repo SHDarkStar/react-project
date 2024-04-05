@@ -1,35 +1,33 @@
-import "./contactStyle.css";
+import "./styles.css";
 import Form from "./Form";
+// قرار دادن لینک راه های ارتباطی و طراحی یک فرم برای ارسال نظرات و برقراری ارتباط با افراد از طریق ایمیل
 export default function Contact() {
 	return (
-		<section className="contacts1">
-			<h2 className="contacts2">
-				Contact
-			</h2>
+		<div className="contacts">
+			<h1 style={{textAlign: "center", fontSize:"70px"}}>
+				Contact Info
+			</h1>
 			<Form />
-			<div style={{"display": "flex", "marginTop": "2.5rem", "margin-bottom": "2.5rem", "gap": "1.25rem", "justify-content": "center"}}>
-				<a
-				className="links"
-				href="https://www.linkedin.com/in/setareh-mizani/">
+			<div className="links">
+				<a className="links" href="https://www.linkedin.com/in/setareh-mizani/">
 					LinkedIn:
-					<span style={{"font-weight":700}}>
-						Setareh Mizani
+					<span>
+						<b>Setareh Mizani</b>
 					</span>
 				</a>
-				<a className="links">
-					<span style={{"fontWeight":700}}>
-                        Email: setarehmizani@gmail.com
+				<a className="links" href="https://github.com/SHDarkStar">
+					GitHub:
+					<span>
+                        <b>SHDarkStar</b>
 					</span>
 				</a>
-				<a
-				className="links"
-				href="https://quera.org/profile/DarkStar">
+				<a className="links" href="https://quera.org/profile/DarkStar">
 					Quera:
-					<span style={{"fontWeight":700}}>
-						DarkStar
+					<span>
+						<b>Setareh.Mz</b>
 					</span>
 				</a>
 			</div>
-		</section>
+		</div>
 	);
 }
