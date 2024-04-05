@@ -1,11 +1,11 @@
+// ساخت یک div  برای کاربر که بتواند صفحات را با کلیک روی انها مشاهدا کند
+// با استفاده از react-router-dom  چهار صفحه لینک شدند
 import { Link } from 'react-router-dom';
-import "./navbarStyle.css";
+import "./styles.css";
 export default function Navbar() {
 	return (
 			<div className="container">
-				<h3 style={{"fontWeight":700}}>
-					Homepage
-				</h3>
+				<img src='./logo.png' style={{width:"70px", height:"70px"}}/>
 				<Link className="page" to="mainbar">Home</Link>
 				<Link className="page" to="about">About</Link>
 				<Link className="page" to="skills">Skills</Link>
